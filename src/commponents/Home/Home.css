@@ -1,0 +1,220 @@
+.home .carousel-item{
+    height: 800px;
+    width: 100%;
+}
+.home .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.home .carousel .carousel-indicators{
+    display: none;
+}
+.home .carousel-read{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #0f183c;
+    position: relative;
+}
+.carousel-control-next-icon{
+    background-image: url("../../assets/images/download\ \(1\).svg");
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.carousel-control-prev-icon{
+    background-image: url("../../assets/images/download.svg");
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 767.98px) {
+    .home .carousel-item {
+        height: 300px;
+    }
+}
+
+.about{
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+.about .image-about{
+    width: 100%;
+}
+.about .image-about img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.about h2{
+    text-align: left;
+    font-size: 35px;
+    font-weight: 550;
+    width: fit-content;
+}
+.about h2::after {
+    content: "";
+    display: block;
+    width: 60%; 
+    margin-top: 8px; 
+    border-bottom: 2px dashed #000;
+}
+
+.about .about-text{
+    text-align: left;
+    margin-left: -29px;
+    margin-top: 27px;
+}
+.about .about-text h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+.about .about-text ul li{
+    position: relative;
+    font-weight: 300;
+    line-height: 31px;
+    font-size: 15px;
+    margin-left: 20px;
+    color: #92989f;
+    margin-bottom: 5px;
+    margin-left: 32px;
+    display: flex;
+}
+.about .about-text ul li span{
+    color: #000;
+    font-size: 21px;
+    margin-right: 8px;
+    margin-left: -24px;
+}
+@media (min-width: 300px) and (max-width: 575.98px) {
+    .about h2 {
+        font-size: 26px;
+    }
+    .about .about-text ul li span {
+        font-size: 17px;
+    }
+}
+.faq{
+    margin-bottom: 95px;
+}
+.faq h2{
+    font-size: 35px;
+    font-weight: 550;
+}
+.faq-accordion{
+    margin-top: 50px;
+}
+.faq .accordion-button{
+    text-transform: capitalize;
+    background-color: #11173b;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.faq .accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-item {
+    position: relative; 
+}
+
+.accordion-item::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    border: 1px dashed #0f183c;
+    position: absolute;
+    top: 25px;
+    left: 18px;
+}
+.accordion-body{
+    text-align: justify;
+    margin-top: -5px;
+    padding: 0px 41px 8px;
+}
+.accordion-button::after{
+    background-image: url("../../assets/images/download.svg");
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("../../assets/images/arrow-down.png");
+}
+
+.accordion {
+    --bs-accordion-border-color: transparent;
+}
+
+
+.contact h2{
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.contact .contact-form {
+    text-align: left;
+}
+.contact-form h4{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contact-form input{
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    padding: 9px .75rem;
+    font-size: 1rem;
+}
+.contact-form textarea{
+    margin-bottom: 20px;
+}
+.contact-form button{
+    background-color: #0f183c;
+    border: #0f183c;
+    color: #fff;
+    padding: 11px 26px;
+}
+.contact-form button:hover,
+.contact-form button:focus{
+    background-color: #0f183c;
+    color: #fff;
+}
+.contact-address {
+    text-align: left;
+}
+.contact-address h4 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+.contact-address ul{
+    margin-left: -21px;
+}
+.contact-address ul li {
+    margin-bottom: 10px;
+}
+.contact-address ul li span{
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px #000 dashed;
+}
+.contact-address ul li b{
+    margin-right: 10px;
+}
+
+.map{
+    margin-top: 95px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media (max-width:991px){
+    .contact .contact-form{
+        margin-bottom: 74px;
+    }
+}
