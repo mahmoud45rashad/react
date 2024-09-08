@@ -1,0 +1,133 @@
+footer{
+    width: 100%;
+    background: url(../../assets/images/footer-bg.png) no-repeat center;
+    background-size: cover;
+    min-height: 250px;
+    padding: 10px 0px 25px 0px;
+    color: #ffffff;
+}
+footer h5{
+    padding-top: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: left;
+}
+.footer-about p{
+    font-size: 14px;
+    color: #CCC;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.footer-social{
+    text-align: left;
+    display: flex;
+}
+.footer-social li  {
+    margin-right: 30px;
+    width: 31px;
+    display: inline-block;
+}
+
+.footer-social li a{
+    font-size: 28px;
+}
+.footer-social li a img{
+    width: 100%;
+}
+.footer-social .facebook{
+    margin-top: -5px;
+}
+.footer-social .facebook a{
+    width: 31px;
+    display: inline-block;
+}
+.footer-social .xtwitter a{
+    color: #fff;
+}
+.footer-social .youtube a{
+    width: 37px;
+    display: inline-block;
+    margin-top: -2px;
+}
+.footer-social .instagram a{
+    color: #000;
+    font-size: 34px;
+}
+.footer-social .instagram {
+    margin-top: -4px;
+}
+.footer-links{
+    margin-left: 25%;
+}
+.footer-links ul {
+    text-align: left;
+    margin-left: -15px;
+}
+.footer-links ul li span{
+    margin-right: 5px;
+}
+.footer-links ul li,
+.footer-links ul li a{
+    color: #cccccc;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer-links ul li:hover,
+.footer-links ul li a:hover{
+    color: #fff;
+}
+.footer-details ul{
+    text-align: left;
+}
+.footer-details ul li{
+    color: #cccccc;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.footer-details ul li span{
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px #ccc dashed;
+}
+@media (max-width:991px){
+    .footer-social {
+        margin-left: -30px;
+    }
+}
+@media(min-width: 768px){
+    .footer-about p{
+        font-size: 12px;
+    }
+    .footer-links ul li, .footer-links ul li a {
+        font-size: 15px;
+    }
+    .footer-details ul li span {
+        font-size: 16px;
+    }
+    .footer-details ul li a{
+        font-size: 15px;
+    }
+    .footer-details ul li {
+        font-size: 13px;
+    }
+}
+@media(max-width: 768px){
+    .footer-links{
+        margin-left: 0;
+    }
+}
+@media(max-width: 400px){
+    .footer-details ul li span {
+        font-size: 15px;
+    }
+    .footer-details ul li a{
+        font-size: 14px;
+    }
+    .footer-details ul li {
+        font-size: 12px;
+    }
+}
